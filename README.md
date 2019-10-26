@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -46,7 +45,7 @@ Response: Body:
  "deadline"​: ​1558249206,​
 "workerId"​: ​4 }, ...
 ] }
-Status:2​ 00
+Status:200
 #​ epoch time in seconds
 ```
 
@@ -64,7 +63,7 @@ Response: Body:
 "name"​: ​"Ashien Galier",​
 "email"​: "​ agalier4@wordify.com"​,
 "companyName"​: ​"Wordify"​,
-"image": ​ ​"http://dummyimage.com/250x250.jpg/ff4444/ffffff"
+"image": "http://dummyimage.com/250x250.jpg/ff4444/ffffff"
 } }
-Status:2​ 00
+Status:200
 ```
