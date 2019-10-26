@@ -35,7 +35,8 @@ The second API returns information about a worker given their id. Each worker ha
 * image (String) - an image for the worker
 ```
 Request:
-Route: ​https://www.hatchways.io/api/assessment/work_orders Method: ​GET
+Route: ​XXX 
+Method: ​GET
 Response: Body:
 {
 "orders"​: [{
@@ -47,4 +48,23 @@ Response: Body:
 ] }
 Status:2​ 00
 #​ epoch time in seconds
+```
+
+
+```
+Request:
+Route: XXX
+Method: ​GET
+Parameters:
+​worker_id​: A url parameter that corresponds to the worker id
+Response: Body:
+{
+"worker"​: {
+​"id"​:4​,
+"name"​: ​"Ashien Galier",​
+"email"​: "​ agalier4@wordify.com"​,
+"companyName"​: ​"Wordify"​,
+"image": ​ ​"http://dummyimage.com/250x250.jpg/ff4444/ffffff"
+} }
+Status:2​ 00
 ```
