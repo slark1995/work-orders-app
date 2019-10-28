@@ -3,7 +3,7 @@ import './WorkOrder.css'
 class WorkOrder extends React.Component {
   render() {
     const { workOrder, worker } = this.props;
-    const time = new Date(workOrder.deadline);
+    const time = new Date(workOrder.deadline * 1000);
     return (
       <div className = "card">
         <div className="order-name">
@@ -17,8 +17,8 @@ class WorkOrder extends React.Component {
         </div>
         {worker ? worker.name : ""} <br />
         {worker ? worker.companyName : ""} <br />
-        {worker ? worker.email : ""}
-        <br /> <br />
+        {worker ? worker.email : ""} <br />
+        deadline: {time.toUTCString()}
       </div>
     );
   }

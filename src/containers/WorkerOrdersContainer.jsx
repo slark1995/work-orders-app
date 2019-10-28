@@ -53,7 +53,7 @@ class WorkerOrdersContainer extends React.Component {
     
     const { workerOrders, workers } = this.state;
     const orders = workerOrders.filter(workOrder => workOrder.name.includes(this.state.queryStr))
-    //   .sort()
+    // .sort()
       .map(workOrder => (
         <WorkOrder
           key={workOrder.id}
