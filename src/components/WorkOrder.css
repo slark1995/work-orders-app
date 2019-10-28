@@ -1,0 +1,15 @@
+.card {
+    max-width: 30vw;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.order-name{
+    margin: 15px;
+    font-weight: 400;
+}
+.picture img{
+    margin: 10px;
+    width: 50%;
+    border-radius: 100%;
+}
