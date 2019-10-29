@@ -3,6 +3,7 @@
 
 In the project directory, you can run:
 
+### `yarn add package.json` 
 ### `yarn start`
 
 Runs the app in the development mode.<br />
